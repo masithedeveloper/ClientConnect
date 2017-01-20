@@ -1,0 +1,82 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/person_detail"
+    style="?android:attr/textAppearanceLarge"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    tools:context="com.zapper.zapperdisplaydata.PersonDetailFragment">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:orientation="vertical"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="FirstName:"
+            android:padding="16dp"
+            android:textIsSelectable="true"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="16dp"
+            android:textIsSelectable="true"
+            android:text="LastName:"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="16dp"
+            android:textIsSelectable="true"
+            android:text="Age:"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Favourite Colour:"
+            android:padding="16dp"
+            android:textIsSelectable="true"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:orientation="vertical"
+        android:layout_alignParentRight="true"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/txtFirstName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="dkfjgkdfg"
+            android:padding="16dp"
+            android:textIsSelectable="true"
+            />
+        <TextView
+            android:id="@+id/txtLastName"
+            android:layout_width="wrap_content"
+            android:padding="16dp"
+            android:textIsSelectable="true"
+            android:layout_height="wrap_content"
+            android:text="dfjdfkjgkfd"/>
+        <TextView
+            android:id="@+id/txtAge"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="16dp"
+            android:textIsSelectable="true"
+            android:text="sdglkdfhgl"/>
+        <TextView
+            android:id="@+id/txtFavouriteColour"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="16dp"
+            android:textIsSelectable="true"
+            android:text="dfgjfdh"/>
+
+    </LinearLayout>
+
+</RelativeLayout>
+
